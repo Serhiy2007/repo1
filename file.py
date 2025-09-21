@@ -40,16 +40,16 @@ def show_info(self): pass
 
 class Customer:
     def __init__(self, id, name, email, phone, address, registration_date, loyalty_points, orders_count, status, password):
-self.id = id
-self.name = name
-self.email = email
-self.phone = phone
-self.address = address
-self.registration_date = registration_date
-self.loyalty_points = loyalty_points
-self.orders_count = orders_count
-self.status = status
-self.password = password
+        self.id = id
+        self.name = name
+        self.email = email
+        self.phone = phone
+        self.address = address
+        self.registration_date = registration_date
+        self.loyalty_points = loyalty_points
+        self.orders_count = orders_count
+        self.status = status
+        self.password = password
 
 
 def register(self): pass
@@ -297,6 +297,7 @@ def redeem_points(self): pass
 def upgrade_level(self): pass
 def deactivate(self): pass
 def show_info(self): pass
+
 
 
 
