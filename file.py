@@ -39,7 +39,7 @@ def get_products(self): pass
 def show_info(self): pass
 
 class Customer:
-def __init__(self, id, name, email, phone, address, registration_date, loyalty_points, orders_count, status, password):
+    def __init__(self, id, name, email, phone, address, registration_date, loyalty_points, orders_count, status, password):
 self.id = id
 self.name = name
 self.email = email
@@ -297,4 +297,5 @@ def redeem_points(self): pass
 def upgrade_level(self): pass
 def deactivate(self): pass
 def show_info(self): pass
+
 
