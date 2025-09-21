@@ -59,17 +59,17 @@ def leave_review(self): pass
 def update_profile(self): pass
 
 class Order:
-def __init__(self, id, customer, date, status, items, total, discount, payment_method, delivery_address, tracking_number):
-self.id = id
-self.customer = customer
-self.date = date
-self.status = status
-self.items = items
-self.total = total
-self.discount = discount
-self.payment_method = payment_method
-self.delivery_address = delivery_address
-self.tracking_number = tracking_number
+    def __init__(self, id, customer, date, status, items, total, discount, payment_method, delivery_address, tracking_number):
+        self.id = id
+        self.customer = customer
+        self.date = date
+        self.status = status
+        self.items = items
+        self.total = total
+        self.discount = discount
+        self.payment_method = payment_method
+        self.delivery_address = delivery_address
+        self.tracking_number = tracking_number
 
 
 def add_item(self): pass
@@ -79,17 +79,17 @@ def update_status(self): pass
 def show_info(self): pass
 
 class Cart:
-def __init__(self, id, customer, items, total, created_at, updated_at, discount, coupon, status, session_id):
-self.id = id
-self.customer = customer
-self.items = items
-self.total = total
-self.created_at = created_at
-self.updated_at = updated_at
-self.discount = discount
-self.coupon = coupon
-self.status = status
-self.session_id = session_id
+    def __init__(self, id, customer, items, total, created_at, updated_at, discount, coupon, status, session_id):
+        self.id = id
+        self.customer = customer
+        self.items = items
+        self.total = total
+        self.created_at = created_at
+        self.updated_at = updated_at
+        self.discount = discount
+        self.coupon = coupon
+        self.status = status
+        self.session_id = session_id
 
 
 def add_item(self): pass
@@ -297,6 +297,7 @@ def redeem_points(self): pass
 def upgrade_level(self): pass
 def deactivate(self): pass
 def show_info(self): pass
+
 
 
 
